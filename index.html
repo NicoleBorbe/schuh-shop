@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>schuh-shop</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div id="overlay">
+            <div id="overlayText">
+                <h3>We use Cookies</h3>
+                    <div class="buttons"> 
+                    <button class="btn3" onclick="off()">Accept</button>
+                    <button class="btn4" onclick="off()">Reject all</button>
+                </div>
+            </div>
+        </div>
+        <div id="logo">
+            <a href="#"><img src="assets/img/logo.svg" alt="logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Catalogue</a></li>
+                <li><a href="#">Fashion</a></li>
+                <li><a href="#">Favourite</a></li>
+                <li><a href="#">Lifestyle</a></li>
+                <li><a href="#news" class="signUp">Sign Up</a></li>
+            </ul>
+            <a href="#"><img src="assets/img/Hamburger_icon.svg" alt="burger" class="burger"></a>
+        </nav>
+    </header>
+    <main>
+        <!-- Section 1 -->
+        <section class="section1">
+            <h2>Let's</h2>
+            <h2>Explore</h2>
+            <h2>Unique</h2>
+            <h2>Shoes.</h2>
+            <p>Live for Influential and Innovative fashion!</p>
+            <div>
+                <button class="btn1">Shop now</button>
+            </div>
+            <div class="shopping">
+                <p id="counter">0</p>
+                <img src="assets/img/shopping-cart.svg" alt="shopping-cart" class="shopCart">
+            </div>
+        </section>
+        <!-- Section 2 -->
+        <section class="section2">
+            <h3>New Arrivals</h3>
+            <section class="newArrivals" id="newA">
+            </section>
+        </section>
+        <!-- Section 3 -->
+        <section class="section3">
+            <article class="article1">
+                <h3>Download App & <br>Get The Voucher!</h3>
+                <p>Get 30% off for first transaction using <br>Rondovision mobile app for now.</p>
+                <div class="apps">
+                    <img src="assets/img/app-store.png" alt="app">
+                    <img src="assets/img/google-play.png" alt="google">
+                </div>
+            </article>
+            <article>
+                <img src="assets/img/app.png" alt="phone" class="phone">
+            </article>
+        </section>
+        <!-- Section 4 -->
+        <section id="news" class="section4">
+            <h2 id="newsletter">Join Shopping Community To<br>Get Monthly Promo</h2>
+            <p id="newText">Type your email down below and be young wild generation</p>
+            <form action="" onsubmit="return false">
+                <input type="email" name="email" id="email" placeholder="Add your email here" required/>
+                <button class="btn2" id="btn2" onclick="subscribe()">Send</button>
+            </form>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <article>
+            <a href="#"><h1>Fashion</h1></a>
+            <p>Complete your style with awesome <br> clothes from us.</p>
+            <a href="https://de-de.facebook.com/"><img src="assets/img/facebook.svg" alt="facebook"></a>
+            <a href="https://www.instagram.com/"><img src="assets/img/instagram.svg" alt="instagram"></a>
+            <a href="https://twitter.com/?lang=de"><img src="assets/img/twitter.svg" alt="twitter"></a>
+            <a href="https://de.linkedin.com/"><img src="assets/img/linkedin.svg" alt="linkedin"></a>
+        </article>
+        <article>
+            <ul>Company
+                <li>About</li>
+                <li>Contact us</li>
+                <li>Support</li>
+                <li>Careers</li>
+            </ul>
+        </article>
+        <ul>Quick Link
+            <li>Share Location</li>
+            <li>Orders Tracking</li>
+            <li>Size Guide</li>
+            <li>FAQs</li>
+        </ul>
+        <ul>Legal
+            <li>Terms & conditions</li>
+            <li>Privacy Police</li>
+        </ul>
+    </footer>
+    
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

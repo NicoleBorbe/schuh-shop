@@ -1,0 +1,220 @@
+@media only screen and (max-width: 992px) {
+    .section2 h3 {
+        text-align: center;
+    }
+    .section2  {
+        background-position: 48rem 3rem;
+    }
+
+    .newArrivals {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0;
+        justify-content: center;
+    }
+    .shopping {
+        top: 82%;
+        left: 85%;
+    }
+    .btn2 {
+        width: 10%;
+        background-color: black;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        font-size: 1.5rem;
+        border-radius: 0.5rem;
+        padding: 0.3rem;
+        border-style: none;
+        margin-left: -7rem;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #overlayText {
+        background-image: none;
+    }
+    .buttons {
+        display: flex;
+    }
+    nav ul {
+        display: none;  
+    }
+    .burger { 
+        display: flex;
+    }
+    header {
+        justify-content: space-between;
+    }
+    #logo {
+        height: 5rem;
+        margin-top: 1rem;
+    }
+    .section1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3rem;
+        margin-right: 3rem;
+        height: 100vh;
+        background-image: url("../img/header-image.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+        background-position-y: center;
+        border-radius: 2rem;
+    }
+    .section1 p {
+        color: white;
+    }
+    .shopping {
+        position: fixed;
+        display: inline;
+        text-align: center;
+        background-color: #FBEDA3;
+        border-radius: 100%;
+        padding: 2rem;
+        height: auto;
+        top: 86%;
+        left: 70%;
+    }
+    .shopping p {
+        position: absolute;
+        background-color: #E5C643;
+        border-radius: 100%;
+        padding: 0.75rem;
+        font-size: 2rem;
+        height: 4.5rem;
+        width: 4.5rem;
+        top: -10%;
+        left: -65%;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+    }
+    .shopCart {
+        display: inline-block;
+        background-color: #FBEDA3;
+        padding: 1rem;
+        border-radius: 10%;  
+    }
+    .section2 h3 {
+        text-align: center;
+    }
+    .newArrivals {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .section2 article {
+        display: flex;
+        flex-direction: column;
+    }
+    .div1 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0.5rem;
+    }
+    .div2 {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0.5rem;
+    }
+    .contents {
+        height: 60rem;
+        width: 40rem;
+        border-radius: 1rem;
+    }
+    .section3 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+    .article1 {
+        margin: 0;
+    }
+    .section3 h3 {
+        font-size: 2.5rem;
+        text-align: start;
+    }
+    .section3 p {
+        font-size: 1.5rem;
+    }
+    
+    .section3 article:nth-of-type(2) {
+        display: none;
+    }
+    .apps img {
+        width: 48%;
+        height: auto;
+    }
+
+    .section4 h2 {
+        font-size: 3rem;
+        
+    }
+    .section4 p {
+        font-size: 1.6rem;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    form input {
+        width: 50%;
+    }
+    .btn2 {
+        width: 30%;
+        margin: auto;
+    }
+    footer {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: black;
+        padding: 3rem 5rem;
+    }
+    h1 {
+        font-size: 5rem;
+    }
+    footer p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        font-weight: 400;
+        line-height: 3rem;
+        color: #8E8E8E;
+        margin-top: 1.5rem;
+    }
+    footer img {
+        height: 5rem;
+        width: 5rem;
+    }
+    
+    footer ul {
+        margin-top: 1rem;
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        line-height: 3.5rem;
+        font-weight: 400;
+        color: white
+    }
+    footer li {
+        font-family: 'Roboto', sans-serif;
+        font-size: 2rem;
+        line-height: 3.5rem;
+        font-weight: 400;
+        color: #8E8E8E;
+        list-style: none; 
+    }
+
+
+    
+}
